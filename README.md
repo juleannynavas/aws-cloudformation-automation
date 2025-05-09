@@ -7,7 +7,7 @@ This project showcases the **automated deployment** of a multi-layer AWS infrast
 ## Key Features
 
 * **Networking Layer** - Provisioned a **VPC** with a **Public Subnet**, Internet gateway **IGW** and **Route Table** to enable external connectivity and proper routing within the VPC.
-* **Application Layer** - Deployed an **EC2 instance** with **Apache** installed via **user data** to serve a static website from **/var/www/html**.
+* **Application Layer** - Deployed an **EC2 instance** with **Apache** installed and configured via **cfn-init** to serve a static website from **/var/www/html** using a pre-defined HTML file delivered through the stack’s metadata configuration..
 * **Security Configuration** - Implemented **security group** to allow controlled HTTP and SSH access.
 * **Stack Automation** - Used **CloudFormation templates** to automate provisioning, updates, and teardown of infrastructure components.
 * **Preservation of Critical Resources** - Applied **deletion policies** to automatically create **Amazon EBS snapshot** before volume deletion.
