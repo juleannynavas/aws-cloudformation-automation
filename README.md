@@ -17,6 +17,10 @@ This project showcases the **automated deployment** of a multi-layer AWS infrast
 
 ![Architecture Overview](images/AWS_architecture.png)
 
+## Complete Project
+
+[![Complete Project .PDF](https://img.shields.io/badge/-Complete%20Project%20.PDF-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=orange)](https://github.com/juleannynavas/aws-cloudformation-automation/blob/main/AWS-CloudFormation-Infrastructure-Automation.pdf)
+
 ## Outcomes
 
 This hands-on project highlights the benefits of **automating cloud deployments** for consistency, security, and scalability. It reflects a **DevOps-oriented approach** by reducing manual configurations and enabling repeatable infrastructure setups that align with modern cloud architecture principles.
